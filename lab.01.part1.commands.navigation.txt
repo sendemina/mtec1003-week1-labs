@@ -15,32 +15,10 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-Applications
-Creative Cloud Files
-Desktop
-Documents
-Downloads
-Evening.Walk.latLong.v01.png
-Evening_Walk_exp_v02.hr.txt
-Library
-Movies
-Music
-OM
-Pictures
-Public
-finitevolume.png
-github
-iCloud Drive (Archive)
-installMacOpenFOAM
-javasharedresources
-lgBin
-louis.goldford@columbia.edu Creative Cloud Files
-startMacOpenFOAM
-venv
 
-
-
-
+Applications	Downloads	Music		a.txt
+Desktop		Library		Pictures	get-pip.py
+Documents	Movies		Public		install.sh
 
 ==========
 2.  Type:
@@ -49,12 +27,9 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-drwx------@  5 louisgoldford2020  staff    160 Jun 12  2020 Applications
-drwx------@  4 louisgoldford2020  staff    128 Jan 11 10:49 Creative Cloud Files
 
-
-
-
+total 0
+drwxr-xr-x   9 Kseniia  staff  288 Aug 30 13:05 College
 
 ==========
 3.  Type:
@@ -63,12 +38,9 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-.			Adobe			IanniX			OM			Zwift
-..			CU			Ircam			Pd			iZotope
 
-
-
-
+.		.DS_Store	Electronic Arts	Pics		Unity Projects
+.%cb_defense	.localized	MuseScore3	Pixel Art	Zoom
 
 ==========
 4.  Type:
@@ -77,20 +49,14 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
+
 ls: doesnotexist: No such file or directory
-
-
-
-
 
 ==========
 5.  What key do I press to go to the previous command?
 ----------
-the UP arrow on my keyboard 
 
-
-
-
+up arrow
 
 ==========
 6.  Name two flags/options that we used in this exercise.
