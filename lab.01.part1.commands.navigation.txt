@@ -62,30 +62,20 @@ up arrow
 6.  Name two flags/options that we used in this exercise.
 ----------
 
--l (list the LONG form of all the files)
--a (list ALL files, including the hidden ones!)
-
-
-
+-l
+-a
 
 ==========
 7.  What was the main command that we used throughout this exercise?
 ----------
-ls (list all them files!! yeehaw!)
 
-
-
-
+ls
 
 ==========
 8.  What's one an argument that we've so far passed to a command?
 ----------
-doesnotexist
+
 Documents
-
-
-
-
 
 ==========
 9.  Type:
@@ -94,11 +84,8 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
--bash: foo: command not found
 
-
-
-
+zsh: command not found: foo
 
 ==========
 10.  Type:
@@ -107,11 +94,8 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
--bash: foo: command not found
 
-
-
-
+zsh: command not found: foo
 
 ==========
 11.  In the following line....
@@ -142,19 +126,13 @@ Follow the instructions line-by-line.
 12. Open a new terminal window. Create a directory called mtec1003. What command did you use?
 ----------
 
-mkdir
-
-
-
+mkdir mtec1003
 
 ==========
 13. Change your directory so that you're in mtec1003. What command did you use?
 ----------
 
-cd 
-
-
-
+cd mtec1003
 
 ==========
 14. Type:
@@ -167,11 +145,8 @@ If it doesn't ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-/Users/louisgoldford2020/mtec1003
 
-
-
-
+/Users/Kseniia/mtec1003
 
 ==========
 15. Type:
@@ -181,11 +156,8 @@ $ ls
 
 Copy and paste the output below.
 ----------
+
 animals
-
-
-
-
 
 ==========
 16. Type:
@@ -195,11 +167,8 @@ $ ls
 
 Copy and paste the output below.
 ----------
+
 animals	food
-
-
-
-
 
 ==========
 17. Type:
@@ -209,6 +178,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
+
 animals	foo	food
 
 
@@ -223,11 +193,8 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-/Users/louisgoldford2020/mtec1003/foo/bar/baz/qux
 
-
-
-
+/Users/Kseniia/mtec1003/foo/bar/baz/qux
 
 ==========
 19. Type:
@@ -238,10 +205,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
-
-
+/Users/Kseniia/mtec1003/foo/bar
 
 ==========
 20. Type:
@@ -252,10 +216,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
-
-
+/Users/Kseniia/mtec1003/foo/bar/baz/qux
 
 ==========
 21. Type:
@@ -266,10 +227,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
-
-
+/Users/Kseniia/mtec1003
 
 ==========
 22. Type:
@@ -281,10 +239,9 @@ $ ls -l
 Copy and paste the first 3 lines from the output into the space below.
 ----------
 
-
-
-
-
+drwxr-xr-x  2 Kseniia  staff  64 Aug 31 13:15 animals
+drwxr-xr-x  3 Kseniia  staff  96 Aug 31 13:16 foo
+drwxr-xr-x  2 Kseniia  staff  64 Aug 31 13:15 food
 
 ==========
 23. Type:
@@ -295,10 +252,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
-
-
+/Users/Kseniia
 
 ==========
 24. Type:
@@ -309,10 +263,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
-
-
+/Volumes
 
 ==========
 25. Type:
@@ -323,10 +274,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
-
-
+/Volumes
 
 ==========
 26. Type:
@@ -337,10 +285,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
-
-
+/Volumes
 
 ==========
 27. Type:
@@ -350,10 +295,7 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
-
-
-
-
+Kseniia-C02WV1HLHTDD
 
 ==========
 28. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
