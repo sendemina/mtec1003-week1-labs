@@ -391,65 +391,46 @@ What command did you use?
 What command did you use?
 ----------
 
-
-
-
-
+../..
 
 ==========
 36. What command is used to delete empty directories?
 ----------
 
-
-
-
-
+rmdir
 
 ==========
 37. What command is used to print out your current working directory?
 ----------
 
-
-
-
-
+pwd
 
 ==========
 38. What flag do I pass to ls to print out all files?
 ----------
 
-
-
-
-
+-a
 
 ==========
 39. What's the shortcut for home directory?
 ----------
 
-
-
-
-
+~
 
 ==========
 40. What's a pathname?
 ----------
 
-
-
-
-
+a pathname is the general form of the name of a file or directory; it specifies a unique location in a file system
 
 ==========
 41. What is a directory?
 ----------
 
-
-
-
-
+a directory is a cataloging structure on a file system that references other files (and directories)
 
 ==========
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+
+/Users/Kseniia/Downloads
