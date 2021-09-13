@@ -301,10 +301,8 @@ Kseniia-C02WV1HLHTDD
 28. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
-
-
-
+pwd
+/Users/Kseniia/mtec1003
 
 ==========
 29. If you're not in the right directory, type the following command:
@@ -332,10 +330,7 @@ lemon
 Write the one command you used below:
 ----------
 
-
-
-
-
+mkdir -p lemon/strawberry/orange/pineapple
 
 ==========
 31. Make another directory called aardvark.
@@ -343,10 +338,7 @@ Write the one command you used below:
 Write the command you used to create the directory below:
 ----------
 
-
-
-
-
+mkdir aardvark
 
 ==========
 32. List the files and directories in the current directory using the long format.
@@ -354,10 +346,11 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
-
-
-
-
+total 0
+drwxr-xr-x  2 Kseniia  staff  64 Sep 13 17:10 aardvark
+drwxr-xr-x  3 Kseniia  staff  96 Aug 31 13:16 foo
+drwxr-xr-x  2 Kseniia  staff  64 Aug 31 13:15 food
+drwxr-xr-x  3 Kseniia  staff  96 Sep 13 17:10 lemon
 
 ==========
 33. Make 3 directories nested within each other:
@@ -369,10 +362,7 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
-
-
-
+mkdir -p foo/bar/baz
 
 ==========
 34. Change your directory so that you're in the inner most directory (baz)
@@ -380,10 +370,7 @@ What command did you use?
 What command did you use?
 ----------
 
-
-
-
-
+cd foo/bar/baz
 
 ==========
 35. Change your directory so that you're two directories up (foo)
